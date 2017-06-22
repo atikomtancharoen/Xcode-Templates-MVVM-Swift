@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>This generates a new viewcontroller using MVVM architecture.</string>
+	<key>Summary</key>
+	<string>This generates a new viewcontroller using MVVM architecture.</string>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>ViewController Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>Description</key>
+			<string>What view controller class to subclass for the new scene</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;UIKit/UIKit.h&gt;</string>
+			<key>Identifier</key>
+			<string>viewControllerSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>UIViewController</string>
+				<string>UITableViewController</string>
+				<string>UICollectionViewController</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewController</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>create viewcontroller</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorInput</string>
+			<key>Identifier</key>
+			<string>interactorInputName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The protocol of the interactorInput</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorOutput</string>
+			<key>Identifier</key>
+			<string>interactorOutputName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The protocol of the interactorOutput</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
