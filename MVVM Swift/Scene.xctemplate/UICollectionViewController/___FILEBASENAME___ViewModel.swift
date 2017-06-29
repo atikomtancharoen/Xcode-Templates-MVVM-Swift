@@ -16,7 +16,7 @@ class ___VARIABLE_viewModelName___{
     // MARK: Events
     weak var delegate: ___VARIABLE_interactorOutputName___?
   
-    //MARK: - Lifecycle
+    //MARK: - Initialization
     init() {
         
     }

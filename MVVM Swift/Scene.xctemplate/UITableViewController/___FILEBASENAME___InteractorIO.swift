@@ -12,6 +12,7 @@ import Foundation
 
 // MARK: - Input
 protocol ___VARIABLE_interactorInputName___ {
+    
     /// Events
     weak var delegate: ___VARIABLE_interactorOutputName___? { get set }
     
@@ -21,5 +22,6 @@ protocol ___VARIABLE_interactorInputName___ {
 
 // MARK: - Output
 protocol ___VARIABLE_interactorOutputName___: class {
+    
     /// Methods
 }

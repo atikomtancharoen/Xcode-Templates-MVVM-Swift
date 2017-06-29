@@ -41,8 +41,8 @@ class ___VARIABLE_viewControllerName___: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        // Please define identifier of prefix use to be `Show`.
-        // ex. ShowProductList etc.
+        // Please define identifier of scene to be className.
+        // ex. ProductListViewController etc.
     }
 }
 
