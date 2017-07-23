@@ -78,6 +78,18 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorIO</string>
+			<key>Identifier</key>
+			<string>interactorIOName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The protocol of the interactorIO</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___InteractorInput</string>
 			<key>Identifier</key>
 			<string>interactorInputName</string>

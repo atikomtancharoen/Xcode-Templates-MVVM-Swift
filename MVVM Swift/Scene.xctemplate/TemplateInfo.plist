@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
 	<key>Description</key>
-	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view controller, interactor, presenter, and router. You can then create individual workers to supplement the interactor.</string>
+	<string>This generates a new interactor using MVVM architecture.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>SortOrder</key>
@@ -85,6 +85,18 @@
 			<true/>
 			<key>Description</key>
 			<string>create viewmodel</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorIO</string>
+			<key>Identifier</key>
+			<string>interactorIOName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The protocol of the interactorIO</string>
 			<key>Type</key>
 			<string>static</string>
 		</dict>

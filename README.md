@@ -1,6 +1,6 @@
 ## Requirements
-- Xcode 8.3
-- Swift 3.2
+- Xcode 8 or Later
+- Swift 3.2.2 or Later
 
 ## Installation
 ### To install the MVVM Swift Xcode templates, run:
